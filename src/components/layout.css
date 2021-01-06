@@ -1,3 +1,5 @@
+@import '../../node_modules/nord/src/sass/nord.css';
+
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
 }
@@ -200,7 +202,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  /* color: hsla(0, 0%, 0%, 0.8); */
+  color: var(--nord4);
+  background-color: var(--nord0);
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -610,7 +614,7 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection {
-  background: #fffa96cc;
+  background: var(--nord15);
 }
 
 .gatsby-highlight {
