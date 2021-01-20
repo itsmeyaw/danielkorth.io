@@ -616,7 +616,10 @@ h6::selection,
 p::selection,
 a::selection {
   background: var(--nord2);
+  padding: 1em;
+  border-radius: 10px;
 }
+
 
 .gatsby-highlight {
   background-color: #1d1f21;

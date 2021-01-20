@@ -19,10 +19,9 @@ const MarkedHeader = styled.h1`
   //   rgba(255, 250, 150, 0.8) 100%,
   //   rgba(255, 250, 150, 0.25)
   // );
-  
 `
 
-const HeaderDate = styled.h3`
+const HeaderDate = styled.h4`
   margin-top: 10px;
   color: #81a1c1;
 `
@@ -62,7 +61,7 @@ export default ({ data }) => {
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
         <HeaderDate>
-          {post.frontmatter.date} - {post.fields.readingTime.text}
+          {post.frontmatter.date}{/* - {post.fields.readingTime.text}*/}
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
