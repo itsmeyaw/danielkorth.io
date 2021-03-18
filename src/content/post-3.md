@@ -1,9 +1,47 @@
 ---
-title: "Code Example"
-date: "2019-06-06"
+title: "This is such a long headline and i dont know what to write so i keep continiung"
+date: "2019-03-17"
 draft: false
-path: "/blog/code-example"
+path: "/blog/example-title"
 ---
+# H1
+
+## H2
+
+### H3
+
+#### H4
+
+##### H5
+
+###### H6
+
+Paragraph
+
+---
+
+> This is a quote
+
+---
+
+[Example.com](example.com)
+
+---
+
+`const foo = bar`
+
+```javascript
+const foo = bar
+console.log(foo);
+```
+
+---
+
+| Hello | World |
+|-------|------ |
+| Foo   | Bar   |
+
+
 
 ## An Code example with PrismJS
 Gatsby-Starter-Julia uses the Atom Editor Theme.

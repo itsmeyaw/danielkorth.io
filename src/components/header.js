@@ -84,12 +84,12 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        {/* <HomeLink to="/">{siteTitle}</HomeLink> */}
-        <NavLink to="/blog">teaching</NavLink>
+        <HomeLink to="/">{siteTitle}</HomeLink>
+        <NavLink to="/blog">Blog</NavLink>
         {/* <GitHubLink href="https://github.com/daniel-korth" target='_blank'>
           GitHub
         </GitHubLink> */}
-        {/* <NavLink to="/contact">contact</NavLink> */}
+        <NavLink to="/contact">Contact</NavLink>
       </p>
     </Content>
   </SiteHeader>
