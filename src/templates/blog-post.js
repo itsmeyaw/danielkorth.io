@@ -21,9 +21,9 @@ const MarkedHeader = styled.h1`
   // );
 `
 
-const HeaderDate = styled.h4`
+const HeaderDate = styled.h3`
   margin-top: 10px;
-  color: #81a1c1;
+  color: #b570cb;
 `
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
@@ -32,17 +32,17 @@ const MarkdownContent = styled.div`
     text-decoration: none;
     position: relative;
 
-    // background-image: linear-gradient(
-    //   rgba(255, 250, 150, 0.8),
-    //   rgba(255, 250, 150, 0.8)
-    // );
-    // background-repeat: no-repeat;
-    // background-size: 100% 0.2em;
-    // background-position: 0 88%;
-    // transition: background-size 0.25s ease-in;
-    // &:hover {
-    //   background-size: 100% 88%;
-    // }
+    background-image: linear-gradient(
+      rgba(255, 250, 150, 0.8),
+      rgba(255, 250, 150, 0.8)
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 88%;
+    }
   }
 
   a > code:hover {
@@ -61,7 +61,7 @@ export default ({ data }) => {
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
         <HeaderDate>
-          {post.frontmatter.date}{/* - {post.fields.readingTime.text}*/}
+          {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>

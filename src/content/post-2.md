@@ -1,15 +1,8 @@
 ---
-title: "What are monoalphabetic substitution ciphers"
-date: "2021-03-17"
+title: "Second Title"
+date: "2019-03-18"
 draft: false
-path: "/blog/monoalphabetic_substitution_cipher"
+path: "/blog/second-title"
 ---
 
-Substitution ciphers are probably one of the most simple forms of encryption. Basically all you  have to do is substitute each letter with another letter. The earliest forms of substitution ciphers 
-were the Ceasar cipher, also known as Ceasar shift. The transformation from the plaintext alphabet to the ciphertext alphabet is done by shifting our plaintext alphabet to the left or right. 
-```python
-plain_alphabet = ['a', 'b', 'c','d', 'e', 'f','g', 'h', 'i','j', 'k', 'l','m', 'n', 'o','p', 'q', 'r','s', 't', 'u','v', 'w', 'x', 'y', 'z']
-rot13_alphabet = [plain_alphabet[x+13] for x in range(len(plain_alphabet))]
-```
-{{rot13_alphabet}}
-For example we assign our plaintext letter 'a' to our ciphertext letter 'G'. This replacement is then fixed and constant throughout our message. 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

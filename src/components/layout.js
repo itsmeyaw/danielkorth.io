@@ -22,9 +22,11 @@ const Content = styled.div`
 
 const GatsbyLink = styled.a`
   margin-left: 5px;
+  // color: #95c077
 `
 
 const Footer = styled.footer`
+  // color: #95c077;
   display: flex;
   justify-content: center;
 `
@@ -50,7 +52,7 @@ const Layout = ({ children }) => (
             © {new Date().getFullYear()}, Built with
             {` `}
             </p>
-            <GatsbyLink href="https://www.gatsbyjs.org" target='_blank' >Gatsby</GatsbyLink>
+            <GatsbyLink href="https://www.gatsbyjs.org" target='_blank'>Gatsby</GatsbyLink>
           </Footer>
         </Content>
       </>

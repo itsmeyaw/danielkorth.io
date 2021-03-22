@@ -14,7 +14,7 @@ const Content = styled.div`
 
 const ArticleDate = styled.h5`
   display: inline;
-  color: #81a1c1;
+  color: #b26ec8;
 `
 
 const MarkerHeader = styled.h3`
@@ -26,22 +26,20 @@ const MarkerHeader = styled.h3`
   //   rgba(255, 250, 150, 0.8) 100%,
   //   rgba(255, 250, 150, 0.25)
   // );
-  :hover {
-    color: #bf616a;
-  }
 `
 
 const ReadingTime = styled.h5`
   display: inline;
-  color: #81a1c1;
+  color: #b26ec8;
 `
+
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
       <Content>
-        <h1>Blog</h1>
+        <h1 style={{color:'#86cdf8'}}>Blog</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -61,7 +59,7 @@ const IndexPage = ({ data }) => {
               </Link>
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                {/* <ReadingTime> - {node.fields.readingTime.text}</ReadingTime> */}
+                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
               </div>
               <p>{node.excerpt}</p>
             </div>
