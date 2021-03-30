@@ -34,7 +34,8 @@ const NavLink = styled(Link)`
   //   transform-origin: bottom left;
   // }
   :hover {
-    color:#b570cb
+    color:#b570cb;
+    transform: scale(1.05);
   }
 `
 
@@ -63,15 +64,19 @@ const GitHubLink = styled.a`
   //   transform-origin: bottom left;
   // }
   :hover {
-    color:#b570cb
+    color:#b570cb;
+    transform: scale(1.05);
   }
 `
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
   color: #a5acb9;
+  :hover {
+    color:#b570cb;
+    transform: scale(1.05);
+  }
 `
-
 const SiteHeader = styled.header`
   background: transparent;
   display: flex;

@@ -1,13 +1,40 @@
 import React from "react"
+import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const NotFound = styled.h1`
+  color: #86cdf8;
+`
+
+const Container = styled.div`
+  text-align: center;
+`
+
+const OuterContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 78vh;
+`
+
+const Description = styled.p`
+  padding: 0;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+`
+
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <OuterContainer>
+        <Container>
+          <NotFound>404 Not Found</NotFound>
+          <Description>lol</Description>
+        </Container>
+      </OuterContainer>
   </Layout>
 )
 

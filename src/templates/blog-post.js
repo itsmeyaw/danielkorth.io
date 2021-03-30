@@ -23,7 +23,7 @@ const MarkedHeader = styled.h1`
 
 const HeaderDate = styled.h3`
   margin-top: 10px;
-  color: #b570cb;
+  color: #696f79;
 `
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
@@ -49,7 +49,7 @@ const MarkdownContent = styled.div`
     text-decoration: underline;
   }
 `
-
+// rst
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
@@ -61,7 +61,7 @@ export default ({ data }) => {
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
         <HeaderDate>
-          {post.frontmatter.date} - {post.fields.readingTime.text}
+          {post.frontmatter.date} {/*- {post.fields.readingTime.text} */}
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
