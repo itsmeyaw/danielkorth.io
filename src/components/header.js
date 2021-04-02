@@ -90,9 +90,10 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/daniel-korth" target='_blank'>
+        <NavLink to='/contact'>Contact</NavLink>
+        {/* <GitHubLink href="https://github.com/danielkorth" target='_blank'>
           GitHub
-        </GitHubLink>
+        </GitHubLink> */}
       </p>
     </Content>
   </SiteHeader>
