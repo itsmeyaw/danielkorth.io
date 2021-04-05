@@ -26,8 +26,11 @@ const GatsbyLink = styled.a`
 `
 
 const Footer = styled.footer`
-  // color: #95c077;
+  // // color: #95c077;
   display: flex;
+  // position: relative;
+  // bottom: 0;
+  // text-align: center;
   justify-content: center;
 `
 

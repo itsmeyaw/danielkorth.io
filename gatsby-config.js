@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Daniel Korth`,
     subtitle: `student at TUM`,
-    description: `side project`,
-    author: `@daniel-korth`,
+    description: `Simple Blog created with Gatsby`,
+    author: `Daniel Korth`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

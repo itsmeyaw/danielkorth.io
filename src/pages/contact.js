@@ -28,18 +28,24 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
+const Contacts = styled.div`
+    margin: 3rem 1rem;
+    text-align: center; 
+    font-size: 1.2rem
+`
+
 const IndexPage = () => (
     <Layout>
         <SEO title='Contact' />
         <Content>
             <h1 style={{ color: '#86cdf8' }}>Contact</h1>
-            <Subtitle>... me via the following</Subtitle>
-            <div style={{ margin: '3rem' }}>
+            <Subtitle>You can find me on...</Subtitle>
+            <Contacts>
                 <Link href='https://github.com/danielkorth' target='_blank'>Github</Link>
-                <Link href='https://kaggle.com/danielkorth' target='_blank'>Kaggle</Link>
                 <Link href='mailto:da.korth@icloud.com' target='_blank'>Mail</Link>
+                <Link href='https://kaggle.com/danielkorth' target='_blank'>Kaggle</Link>
                 <Link href='https://discord.com/users/151430860149751808' target='_blank'>Discord</Link>
-            </div>
+            </Contacts>
         </Content>
     </Layout>
 )
