@@ -51,6 +51,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           property: `og:type`,
           content: `website`,
         },
+        // todo seo
         // {
         //   name: `twitter:card`,
         //   content: `summary`,

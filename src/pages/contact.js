@@ -3,8 +3,6 @@ import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from "gatsby-image"
-import { StaticQuery, graphql } from "gatsby"
 
 const Subtitle = styled.h3`
   display: inline;
@@ -51,29 +49,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-
-
-// const IndexPage = () => (
-//     <StaticQuery query={graphql`{
-//         file(relativePath: {eq: "github.png"}) {
-//           childImageSharp {
-//             fluid {
-//               aspectRatio
-//               base64
-//               sizes
-//               src
-//               srcSet
-//             }
-//           }
-//         }
-//       }
-//     `
-//     } render={data => (
-//         <Layout>
-//             <SEO title="Contact" keywords={[`gatsby`, `application`, `react`]} />
-//             <Image href='https://github.com/danielkorth' target='_blank'>
-//                 <Img fluid={data.file.childImageSharp.fluid} alt='Github' />
-//             </Image>
-//         </Layout>
-//     )} />
-// )

@@ -22,15 +22,10 @@ const Content = styled.div`
 
 const GatsbyLink = styled.a`
   margin-left: 5px;
-  // color: #95c077
 `
 
 const Footer = styled.footer`
-  // // color: #95c077;
   display: flex;
-  // position: relative;
-  // bottom: 0;
-  // text-align: center;
   justify-content: center;
 `
 

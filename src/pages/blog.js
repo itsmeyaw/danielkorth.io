@@ -21,20 +21,13 @@ const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
   :hover {
-    color:#b570cb;
+    color:#e5c07b;
   }
-  // background-image: linear-gradient(
-  //   -100deg,
-  //   rgba(255, 250, 150, 0.15),
-  //   rgba(255, 250, 150, 0.8) 100%,
-  //   rgba(255, 250, 150, 0.25)
-  // );
 `
-
-const ReadingTime = styled.h5`
-  display: inline;
-  // color: black;
-`
+// Maybe use later on
+// const ReadingTime = styled.h5`
+//   display: inline;
+// `
 
 
 const IndexPage = ({ data }) => {
