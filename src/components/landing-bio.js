@@ -24,7 +24,7 @@ const Description = styled.p`
 const NameHeader = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 0;
-  color: #86cdf8;
+  color: #4dc4ff;
 `
 
 const LandingBio = () => (

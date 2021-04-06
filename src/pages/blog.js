@@ -21,7 +21,7 @@ const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
   :hover {
-    color:#e5c07b;
+    color:#f0a45d;
   }
 `
 // Maybe use later on
@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <Content>
-        <h1 style={{color:'#86cdf8'}}>Blog</h1>
+        <h1 style={{color:'#4dc4ff'}}>Blog</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate

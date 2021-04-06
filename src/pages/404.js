@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const NotFound = styled.h1`
-  color: #86cdf8;
+  color: #4dc4ff;
 `
 
 const Container = styled.div`

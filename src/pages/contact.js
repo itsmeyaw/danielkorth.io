@@ -15,7 +15,7 @@ const Link = styled.a`
     display: inline-block;
     position: relative;
     :hover {
-        color:#b570cb;
+        color:#de73ff;
         transform: scale(1.05);
     }
 `
@@ -36,7 +36,7 @@ const IndexPage = () => (
     <Layout>
         <SEO title='Contact' />
         <Content>
-            <h1 style={{ color: '#86cdf8' }}>Contact</h1>
+            <h1 style={{ color: '#4dc4ff' }}>Contact</h1>
             <Subtitle>You can find me on...</Subtitle>
             <Contacts>
                 <Link href='https://github.com/danielkorth' target='_blank'>Github</Link>

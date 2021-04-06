@@ -16,7 +16,7 @@ const NavLink = styled(Link)`
   display: inline-block;
   position: relative;
   :hover {
-    color:#b570cb;
+    color: #de73ff;
     transform: scale(1.05);
   }
 `
@@ -25,7 +25,7 @@ const HomeLink = styled(NavLink)`
   margin-left: 0;
   color: #a5acb9;
   :hover {
-    color:#b570cb;
+    color:#de73ff;
     transform: scale(1.05);
   }
 `
