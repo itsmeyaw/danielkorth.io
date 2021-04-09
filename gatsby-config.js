@@ -2,11 +2,19 @@ module.exports = {
   siteMetadata: {
     title: `Daniel Korth`,
     subtitle: `student at TUM`,
-    description: `Simple Blog created with Gatsby`,
+    description: `Simple Website created with Gatsby`,
     author: `Daniel Korth`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: `${__dirname}/src/images`
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
