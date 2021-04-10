@@ -13,20 +13,31 @@ import styled from "@emotion/styled"
 import Header from "./header"
 import "./layout.css"
 
+const Container = styled.div`
+  min-height: 100vh;
+  position: relative;
+  // background: darkblue;
+`
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
-  padding: 0 1.0875rem 1rem;
-  padding-top: 0;
+  min-height:80%;
+  padding: 0 1.0875rem 0;
+  // padding-top: 0;
+  // background: darkblue;
 `
 
-const GatsbyLink = styled.a`
-  margin-left: 5px;
-`
-
-const Footer = styled.footer`
-  display: flex;
+const Footer = styled.div`
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 2.5rem;
+  // display: flex;
   justify-content: center;
+  text-align: center;
+  width: 100%;
+  // background: #fff;
 `
 
 const Layout = ({ children }) => (
@@ -42,15 +53,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <Content>
-          <main>{children}</main>
+        <Container>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <Content>
+            <main>{children}</main>
+          </Content>
           <Footer>
-            <p>
-            © {new Date().getFullYear()} - Daniel Korth
+              <p>
+                © {new Date().getFullYear()} |  Daniel Korth
             </p>
-          </Footer>
-        </Content>
+            </Footer>
+        </Container>
       </>
     )}
   />

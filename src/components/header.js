@@ -11,7 +11,7 @@ const Content = styled.div`
 
 const NavLink = styled(Link)`
   color: #a5acb9;
-  margin-left: 15px;
+  margin: 10px;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -22,7 +22,7 @@ const NavLink = styled(Link)`
 `
 
 const HomeLink = styled(NavLink)`
-  margin-left: 0;
+  margin: 10px;
   color: #a5acb9;
   :hover {
     color:#de73ff;
@@ -31,6 +31,7 @@ const HomeLink = styled(NavLink)`
 `
 const SiteHeader = styled.header`
   background: transparent;
+  height: 10vh;
   display: flex;
   align-content: center;
   justify-content: center;
