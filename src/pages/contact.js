@@ -29,10 +29,11 @@ const IconList = styled.ul`
 `
 
 const ListItem = styled.li`
-    margin: auto;
+    margin: auto 1rem;
     height: 200px;
     width: 200px;
     align: center;
+    display: inline;
 `
 
 // const Contacts = styled.div`
