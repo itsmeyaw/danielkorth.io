@@ -21,7 +21,9 @@ const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
   padding: 1.45rem 1.0875rem;
-  height: 80vh;
+//   height: 80%;
+  text-align: center;
+  margin-bottom: 20px
 `
 
 const IconList = styled.ul`
@@ -47,7 +49,7 @@ const IndexPage = () => (
     <Layout>
         <SEO title='Contact' />
         <Content>
-            <h1 style={{ color: '#4dc4ff' }}>Contact</h1>
+            <h1 style={{ color: '#4dc4ff'  }}>Contact</h1>
             {/* <Subtitle>You can find me on...</Subtitle> */}
             {/* <Contacts>
                 <Link href='https://github.com/danielkorth' target='_blank'>Github</Link>
