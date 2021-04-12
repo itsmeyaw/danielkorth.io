@@ -2,11 +2,19 @@ module.exports = {
   siteMetadata: {
     title: `Daniel Korth`,
     subtitle: `student at TUM`,
-    description: `Simple Website created with Gatsby`,
+    description: `Simple Blog created with Gatsby`,
     author: `Daniel Korth`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    // `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/content`,
+      },
+    },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
@@ -18,13 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/content`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
+
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -69,7 +71,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/circle.png`, // This path is relative to the root of the site.
+        icon: `src/images/dk.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
