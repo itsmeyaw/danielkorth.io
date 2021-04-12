@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Github from '../images/github.svg'
 import Email from '../images/eemail.svg'
 import Kaggle from '../images/kaggle.svg'
-import Discord from '../images/discord.svg'
+// import Discord from '../images/discord.svg'
 
 const Icon = styled.a`
     color:#a5acb9;
