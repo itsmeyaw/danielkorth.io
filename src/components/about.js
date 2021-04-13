@@ -3,18 +3,24 @@ import PropTypes from "prop-types"
 import styled from "@emotion/styled"
 
 const About = styled.p`
-    color:black;
+    color:#a5acb9;
 `
 
 const AboutHeader = styled.h1`
-    color: #4dc4ff
-`
-
-const AboutSection = styled.div`
+    color: #4dc4ff;
     text-align: center;
-    background: darkgreen;
+    background-color: #404859;
+    border-radius: 0.3em;
+    width: max-content;
+    margin: 10px auto;
+    padding: 2px 5px
+`
+ 
+const AboutSection = styled.div`
+    text-align: justify;
+    // background: darkgreen;
     min-height: 40vh;
-    margin: 0 150px;
+    margin: 0 120px;
 `
 
 const IndexPage = () => (
