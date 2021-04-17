@@ -23,11 +23,12 @@ const SkillsSection = styled.div`
     flex-wrap: wrap;
     align-items: center;
     margin-left: 0;
+    font-weight: normal;
 `
 
 const SkillElement = styled.div`
     color:#a5acb9;
-    display: block;
+    // display: block;
     font-weight: normal;
     margin: 0 auto;
     text-align: center;
@@ -86,7 +87,18 @@ const SkillsPage = () => (
                     <HTML /><CSS />
                     <PriorExp>HTML/CSS</PriorExp>
                 </SkillElement>
-                {/* <SkillElement></SkillElement> */}
+            </SkillsSection>
+            Libraries
+            <SkillsSection>
+                <p>NumPy, pandas, Matplotlib, Seaborn, Plotly, sklearn, PyTorch</p>
+            </SkillsSection>
+            Frameworks
+            <SkillsSection>
+                <p>Spring Boot, Gatsby</p>
+            </SkillsSection>
+            Development tools
+            <SkillsSection>
+                <p>Git, VSCode, IntelliJ</p>
             </SkillsSection>
         </Skills>
     </SkillsContainer>
