@@ -19,9 +19,9 @@ const Skills = styled.div`
 const SkillsSection = styled.div`
     margin-top: 2vh;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 0;
     font-weight: normal;
 `
@@ -30,7 +30,7 @@ const SkillElement = styled.div`
     color:#a5acb9;
     // display: block;
     font-weight: normal;
-    margin: 0 auto;
+    margin-right: 50px;
     text-align: center;
 `
 const Proficient = styled.p`
