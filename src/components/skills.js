@@ -12,23 +12,35 @@ import CSS from "../images/css3.svg"
 const Skills = styled.div`
     color:#a5acb9;
     margin: 0 auto;
-    margin-top: 3vh
-`
-
-const SkillsSection = styled.ul`
+    margin-top: 3vh;
     font-weight: bold;
-    margin: 0 auto;
 `
 
-const SkillElement = styled.li`
-    color:#a5acb9;
-    font-weight: normal;
-    margin: auto;
+const SkillsSection = styled.div`
+    margin-top: 2vh;
     display: flex;
-    items-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0;
 `
 
+const SkillElement = styled.div`
+    color:#a5acb9;
+    display: block;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+`
+const Proficient = styled.p`
+    text-decoration: underline;
+    text-decoration-color: #8db472;
+`
 
+const PriorExp = styled.p`
+    text-decoration: underline;
+    text-decoration-color: #e3bf7a;
+`
 const Header = styled.h1`
     color: #4dc4ff;
     text-align: center;
@@ -52,17 +64,29 @@ const SkillsPage = () => (
             Skills
         </Header>
         <Skills>
+            Languages
             <SkillsSection>
-                Languages
                 <SkillElement>
                     <Python />
-                    <Java />
-                    <R />
-                    <HTML />
-                    <CSS />
-                    <Postgres />
-                    {/* <p>Python</p> */}
+                    <Proficient>Python</Proficient>
                 </SkillElement>
+                <SkillElement>
+                    <Java />
+                    <Proficient>Java</Proficient>
+                </SkillElement>
+                <SkillElement>
+                    <Postgres />
+                    <Proficient>(postgre)SQL</Proficient>
+                </SkillElement>
+                <SkillElement>
+                    <R />
+                    <PriorExp>R</PriorExp>
+                </SkillElement>
+                <SkillElement>
+                    <HTML /><CSS />
+                    <PriorExp>HTML/CSS</PriorExp>
+                </SkillElement>
+                {/* <SkillElement></SkillElement> */}
             </SkillsSection>
         </Skills>
     </SkillsContainer>
