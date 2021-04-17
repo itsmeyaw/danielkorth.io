@@ -3,6 +3,11 @@ import PropTypes from "prop-types"
 import styled from "@emotion/styled"
 
 import Python from "../images/python.svg"
+import Java from "../images/java.svg"
+import R from "../images/r-project.svg"
+import Postgres from "../images/postgresql.svg"
+import HTML from "../images/html-5.svg"
+import CSS from "../images/css3.svg"
 
 const Skills = styled.div`
     color:#a5acb9;
@@ -19,8 +24,8 @@ const SkillElement = styled.li`
     color:#a5acb9;
     font-weight: normal;
     margin: auto;
-    // width: 100%;
     display: flex;
+    items-align: center;
 `
 
 
@@ -49,11 +54,16 @@ const SkillsPage = () => (
         <Skills>
             <SkillsSection>
                 Languages
+                <SkillElement>
+                    <Python />
+                    <Java />
+                    <R />
+                    <HTML />
+                    <CSS />
+                    <Postgres />
+                    {/* <p>Python</p> */}
+                </SkillElement>
             </SkillsSection>
-            <SkillElement>
-                <Python />
-                Python
-            </SkillElement>
         </Skills>
     </SkillsContainer>
 )
