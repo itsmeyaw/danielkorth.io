@@ -8,8 +8,8 @@ const ProjectHeader = styled.h1`
     background-color: #404859;
     border-radius: 0.3em;
     width: max-content;
-    margin: 10px auto;
-    padding: 2px 5px
+    margin: 70px auto 30px;
+    padding: 2px 5px;
 `
 
 const Kaggle = styled.ul`
@@ -52,7 +52,7 @@ const ProjectPage = () => (
                 <Link href='https://www.kaggle.com/danielkorth/netflix-eda-and-data-visualization-plotly' target='_blank'>Analysis of Netflix Content (Plotly)</Link>
             </KaggleItems>
             <KaggleItems>
-                <Link href='https://www.kaggle.com/danielkorth/amazon-books-eda-and-dataviz-seaborn' target='_blank'>Analysis Amazon Bestsellers (Matplotlib/Seaborn)</Link>
+                <Link href='https://www.kaggle.com/danielkorth/eda-amazon-bestselling-books' target='_blank'>Analysis Amazon Bestsellers (Matplotlib/Seaborn)</Link>
             </KaggleItems>
             <KaggleItems>
                 <Link href='https://www.kaggle.com/danielkorth/prediction-hr-analytics-data-scientists' target='_blank'>Prediction of job change of Data Scientists (Random Forest, SVM, XGBoost)</Link>

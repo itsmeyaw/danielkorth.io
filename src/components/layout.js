@@ -22,7 +22,7 @@ const Container = styled.div`
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
-  min-height:80%;
+  min-height:100%;
   padding: 0 1.0875rem 0;
   // padding-top: 0;
   // background: darkblue;
@@ -60,7 +60,7 @@ const Layout = ({ children }) => (
           </Content>
           <Footer>
               <p>
-                © {new Date().getFullYear()} |  Daniel Korth
+                © {new Date().getFullYear()} |  Daniel Korth   -   Icons by <a href="https://icons8.com/">Icons8</a>
             </p>
             </Footer>
         </Container>

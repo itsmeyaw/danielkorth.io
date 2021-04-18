@@ -47,14 +47,13 @@ const Header = styled.h1`
     background-color: #404859;
     border-radius: 0.3em;
     width: max-content;
-    margin: 10px auto;
-    padding: 2px 5px
+    margin: 70px auto 30px;
+    padding: 2px 5px;
 `
 
 const SkillsContainer = styled.div`
     text-align: justify;
     // background: darkgreen;
-    min-height: 40vh;
     margin: 0 120px;
 `
 
