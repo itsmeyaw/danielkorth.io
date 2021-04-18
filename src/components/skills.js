@@ -17,7 +17,6 @@ const Skills = styled.div`
 `
 
 const SkillsSection = styled.div`
-    margin-top: 2vh;
     display: flex;
     // justify-content: center;
     flex-wrap: wrap;
@@ -28,7 +27,7 @@ const SkillsSection = styled.div`
 
 const SkillElement = styled.div`
     color:#a5acb9;
-    // display: block;
+    margin-top: 10px;
     font-weight: normal;
     margin-right: 50px;
     text-align: center;
