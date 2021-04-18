@@ -27,7 +27,7 @@ const IndexPage = () => (
     <AboutSection>
         <AboutHeader>About me</AboutHeader>
         <About>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I am 20 years old and currently studying Information Systems at the Technical University of Munich. My interests are in exploring how data can be used to gain meaningful insights and make better/more rational decisions. I am currently focusing my attention to Kaggle - mainly Exploratory Data Analysis & Competitions - and learning about the methods and techniques used in Deep Metric Learning.
         </About>
     </AboutSection>
 )
