@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { Link } from 'react-scroll';
+import Arrow from '../images/arrow.svg'
 
 const Container = styled.div`
   text-align: center;
@@ -11,9 +13,9 @@ const OuterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  height: 90vh;
-  padding-bottom: 10vh;
+  // flex-direction: row;
+  height: 80vh;
+  // padding-bottom: 10vh;
 `
 
 const Description = styled.p`
@@ -26,6 +28,11 @@ const NameHeader = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 0;
   color: #4dc4ff;
+`
+
+const ArrowLink = styled.div`
+  // background-color: green;
+  text-align: center;
 `
 
 const LandingBio = () => (
@@ -41,12 +48,19 @@ const LandingBio = () => (
       }
     `}
     render={data => (
-      <OuterContainer>
-        <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>{data.site.siteMetadata.subtitle}</Description>
-        </Container>
-      </OuterContainer>
+      <div>
+        <OuterContainer>
+          <Container>
+            <NameHeader>{data.site.siteMetadata.title}</NameHeader>
+            <Description>{data.site.siteMetadata.subtitle}</Description>
+          </Container>
+        </OuterContainer>
+          <ArrowLink>
+            <Link to="about" smooth duration={1200}>
+              <Arrow />
+            </Link>
+          </ArrowLink>
+      </div>
     )}
   />
 )

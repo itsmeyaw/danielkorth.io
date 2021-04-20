@@ -31,7 +31,7 @@ const HomeLink = styled(NavLink)`
 `
 const SiteHeader = styled.header`
   background: transparent;
-  min-height: 10vh;
+  height: 10vh;
   display: flex;
   align-content: center;
   justify-content: center;
