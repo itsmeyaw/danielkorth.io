@@ -54,7 +54,7 @@ const Header = styled.h1`
 const SkillsContainer = styled.div`
     text-align: justify;
     // background: darkgreen;
-    margin: 0 120px;
+    // margin: 0 120px;
 `
 
 const SkillsPage = () => (

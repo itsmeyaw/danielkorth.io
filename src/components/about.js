@@ -19,7 +19,8 @@ const AboutHeader = styled.h1`
 const AboutSection = styled.section`
     text-align: justify;
     // min-height: 40vh;
-    margin: 0 120px;
+    // max-width: 80vh;
+    // margin: 0 120px;
     margin-top: 15vh;
     padding-top: 4vh
 `
@@ -29,7 +30,7 @@ const IndexPage = () => (
         <AboutSection id='about'>
             <AboutHeader>About me</AboutHeader>
             <About>
-                I am 20 years old and currently studying Information Systems at the Technical University of Munich. My interests are in exploring how data can be used to gain meaningful insights and make better/more rational decisions. I am currently focusing my attention to Kaggle - mainly Exploratory Data Analysis & Competitions - and learning about the methods and techniques used for Deep Metric Learning.
+                I am 20 years old and currently studying Information Systems at the Technical University of Munich. My interests are in exploring how data can be used to gain meaningful insights and make better/more rational decisions. I am currently exploring the methods and techniques used for Deep Metric Learning.
         </About>
         </AboutSection>
     // </section>

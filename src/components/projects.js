@@ -36,7 +36,7 @@ const Link = styled.a`
 const ProjectSection = styled.div`
     text-align: justify;
     min-height: 40vh;
-    margin: 0 120px;
+    // margin: 0 120px;
     margin-bottom: 50px;
 `
 
