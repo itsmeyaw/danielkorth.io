@@ -31,8 +31,10 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <OuterContainer>
         <Container>
-          <NotFound>404 Not Found</NotFound>
-          <Description>lol</Description>
+          {/* <NotFound>404 Not Found</NotFound> */}
+          {/* <Description>lol</Description> */}
+          <img alt='' src='https://imgs.xkcd.com/comics/not_available.png'></img>
+          <p>https://xkcd.com/1969/</p>
         </Container>
       </OuterContainer>
   </Layout>
