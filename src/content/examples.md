@@ -42,4 +42,4 @@ console.log(foo);
 | Foo   | Bar   |
 
 
-
+$a^2 + b^2 = c^2$

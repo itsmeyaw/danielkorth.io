@@ -1,7 +1,7 @@
 ---
 title: "Sceleton"
 date: "2021-05-15"
-draft: false
+draft: true
 path: "/blog/sceleton"
 ---
 

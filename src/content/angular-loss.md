@@ -1,7 +1,7 @@
 ---
 title: "Angular Loss for Deep Metric Learning"
 date: "2021-04-17"
-draft: false
+draft: true
 path: "/blog/angular-loss"
 ---
 
