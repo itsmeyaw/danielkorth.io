@@ -4,6 +4,8 @@ import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "katex/dist/katex.min.css"
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
